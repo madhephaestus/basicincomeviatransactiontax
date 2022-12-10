@@ -12,10 +12,10 @@
  */
 
 int supplyChainDepth =46
-double annualIncome =24000
+double annualIncome =54000
 double netMoneyCreation = annualIncome
-double transactionFeePercent=4.0
-double numberOfYears =14
+double transactionFeePercent=1.5
+double numberOfYears =30
 for (int i=0;i<supplyChainDepth;i++) {
 	
 	double transactionTax = (netMoneyCreation*transactionFeePercent/100.0)
